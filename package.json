@@ -1,0 +1,8 @@
+{
+  "name": "nycphotoassistant",
+  "version": "1.0.0",
+  "description": "NYC Photo Assistant Website",
+  "scripts": {
+    "start": "npx http-server ."
+  }
+}
