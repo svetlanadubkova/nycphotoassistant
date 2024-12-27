@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Allow: /blog/
+Sitemap: https://nycphotoassistant.com/sitemap.xml
+
+# Allow all bots full access
+# Point to sitemap location

@@ -1,0 +1,140 @@
+/* Blog Specific Styles */
+.blog-content {
+    max-width: 1000px;
+    margin: 120px auto 60px;
+    padding: 0 2rem;
+}
+
+.blog-post {
+    background: rgba(0, 46, 27, 0.6);
+    padding: 3rem;
+    border: 1px solid var(--primary-color);
+}
+
+.post-header {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.post-header h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    text-transform: lowercase;
+}
+
+.post-header time {
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+.post-body {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.post-body h2 {
+    font-size: 1.8rem;
+    margin: 3rem 0 1.5rem;
+    color: var(--primary-color);
+    text-transform: lowercase;
+}
+
+.post-body h3 {
+    font-size: 1.4rem;
+    margin: 2rem 0 1rem;
+    text-transform: lowercase;
+}
+
+.post-body p {
+    margin-bottom: 1.5rem;
+}
+
+.post-body ul {
+    margin: 1.5rem 0;
+    padding-left: 1.5rem;
+}
+
+.post-body li {
+    margin-bottom: 0.75rem;
+}
+
+/* Author Bio Section */
+.author-section {
+    margin-top: 4rem;
+    padding-top: 4rem;
+    border-top: 1px solid rgba(226, 255, 0, 0.2);
+    text-align: left;
+}
+
+.author-section h2 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    text-transform: lowercase;
+}
+
+.author-section p {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.contact-button-container {
+    margin-top: 3rem;
+    text-align: center; /* Centered the button */
+}
+
+/* Blog Listing Page */
+.blog-list {
+    list-style: none;
+    padding: 0;
+}
+
+.blog-list-item {
+    border-bottom: 1px solid rgba(226, 255, 0, 0.2);
+    padding: 2rem 0;
+}
+
+.blog-list-item:last-child {
+    border-bottom: none;
+}
+
+.blog-list-item h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-transform: lowercase;
+}
+
+.blog-list-item time {
+    color: var(--primary-color);
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.blog-list-item p {
+    margin-bottom: 1.5rem;
+}
+
+.read-more {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+}
+
+.read-more:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .blog-post {
+        padding: 2rem;
+    }
+
+    .post-header h1 {
+        font-size: 2rem;
+    }
+
+    .post-body {
+        font-size: 1rem;
+    }
+}
